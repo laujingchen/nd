@@ -1,0 +1,81 @@
+Execution time, vanilla
+
+real	0m0.103s
+user	0m0.015s
+sys	0m0.031s
+
+real	0m0.108s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.124s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.097s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.120s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.120s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.121s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.119s
+user	0m0.031s
+sys	0m0.031s
+
+real	0m0.097s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.108s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.104s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.124s
+user	0m0.000s
+sys	0m0.000s
+
+real	0m0.112s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.108s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.119s
+user	0m0.015s
+sys	0m0.015s
+
+real	0m0.104s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.104s
+user	0m0.015s
+sys	0m0.015s
+
+real	0m0.122s
+user	0m0.015s
+sys	0m0.000s
+
+real	0m0.118s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.099s
+user	0m0.000s
+sys	0m0.016s

@@ -1,0 +1,85 @@
+Files changed
+
+20231118-2, removing VLAs
+arm-gen.c
+arm64-gen.c
+c67-gen.c
+i386-gen.c
+tcc.h
+tccgen.c
+x86_64-gen.c
+
+20231122-1, changing XOR '?' to '`'
+arm-gen.c
+arm64-gen.c
+c67-gen.c
+i386-gen.c
+il-gen.c
+tccasm.c
+tccgen.c
+tccpp.c
+x86_64-gen.c
+
+20231122-2, restoring `?:`
+tccgen.c
+
+20231123-1, consistent numeric literals
+tccpp.c
+
+20231202-1, removing bounds checking
+i386-gen.c
+libtcc.c
+tcc.c
+tcc.h
+tccelf.c
+tccgen.c
+tccpe.c
+tccrun.c
+tcctok.h
+x86_64-gen.c
+
+20231209-1, remove line comments and begin new decls
+tccgen.c
+tccpp.c
+tcctok.h
+
+20231219-1, library extensions and misc cleanups
+tccgen.c
+tccpp.c
+tcctok.h
+[New]
+win32/include/
+	_c.h
+	_c2.h
+
+20231219-2, new decls
+tccgen.c
+tcctok.h
+win32/include/
+	_c.h
+	_c2.h
+
+20231220-1, benchmarks
+tccgen.c
+tccpp.c
+tcctok.h
+win32/include/
+	_c.h
+	_c2.h
+[New]
+timetcc
+win32/_misc/
+	boxoff/*
+	boxoff_new/*
+	results/*
+
+20231220-2, remove `jump`, benchmarks 2
+tccgen.c
+tcctok.h
+win32/
+	_misc/
+		boxoff_new/*
+		timetcc
+	include/
+		_c.h
+		_c2.h

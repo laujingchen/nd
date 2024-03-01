@@ -1,0 +1,41 @@
+#!/bin/bash
+# Use `bash` to access built-in `time`
+
+BASEDIR=$(pwd)
+VANILLADIR=$BASEDIR/boxoff
+MODDIR=$BASEDIR/boxoff_new
+RESULTSDIR=$BASEDIR/results
+
+cd $VANILLADIR
+RESULTSFILE=$RESULTSDIR/1_comp-vanilla.txt
+echo Compilation time, vanilla >$RESULTSFILE
+for i in {1..20}
+do
+	{ time /d/ljc/misc/code/fyp/tcc-0.9.27/win32/tcc.exe -o boxoff.exe *.c
+	} 2>>$RESULTSFILE
+done
+cd $MODDIR
+RESULTSFILE=$RESULTSDIR/2_comp-modded.txt
+echo Compilation time, modded >$RESULTSFILE
+for i in {1..20}
+do
+	{ time $BASEDIR/../tcc.exe -o boxoff.exe *.c
+	} 2>>$RESULTSFILE
+done
+
+cd $VANILLADIR
+RESULTSFILE=$RESULTSDIR/3_exe-vanilla.txt
+echo Execution time, vanilla >$RESULTSFILE
+for i in {1..20}
+do
+	{ time ./boxoff.exe >/dev/null
+	} 2>>$RESULTSFILE
+done
+cd $MODDIR
+RESULTSFILE=$RESULTSDIR/4_exe-modded.txt
+echo Execution time, modded >$RESULTSFILE
+for i in {1..20}
+do
+	{ time ./boxoff.exe >/dev/null
+	} 2>>$RESULTSFILE
+done

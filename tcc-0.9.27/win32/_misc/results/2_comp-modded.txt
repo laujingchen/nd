@@ -1,0 +1,81 @@
+Compilation time, modded
+
+real	0m0.120s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.099s
+user	0m0.000s
+sys	0m0.031s
+
+real	0m0.130s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.101s
+user	0m0.000s
+sys	0m0.031s
+
+real	0m0.099s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.100s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.114s
+user	0m0.000s
+sys	0m0.031s
+
+real	0m0.131s
+user	0m0.015s
+sys	0m0.000s
+
+real	0m0.100s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.119s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.099s
+user	0m0.015s
+sys	0m0.015s
+
+real	0m0.125s
+user	0m0.015s
+sys	0m0.016s
+
+real	0m0.128s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.114s
+user	0m0.015s
+sys	0m0.015s
+
+real	0m0.115s
+user	0m0.000s
+sys	0m0.031s
+
+real	0m0.101s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.097s
+user	0m0.000s
+sys	0m0.031s
+
+real	0m0.100s
+user	0m0.015s
+sys	0m0.000s
+
+real	0m0.109s
+user	0m0.046s
+sys	0m0.000s
+
+real	0m0.140s
+user	0m0.000s
+sys	0m0.000s
